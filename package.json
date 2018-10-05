@@ -2,7 +2,7 @@
   "name": "erenwebdev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://altaygileren.github.io/portfolio/",
+  "homepage": "https://altaygileren.github.io/erenwebdev/",
   "dependencies": {
     "bulma": "^0.7.1",
     "bulma-start": "^0.0.2",
