@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Route render={({ location }) => (
+        <Route path={process.env.PUBLIC_URL + '/'} render={({ location }) => (
           <div>
             
             <Header />
