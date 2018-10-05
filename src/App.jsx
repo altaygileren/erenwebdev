@@ -15,8 +15,8 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 class App extends Component {
   render() {
     return (
-      <Router>
-        <Route path={process.env.PUBLIC_URL + '/'} render={({ location }) => (
+      <Router basename={process.env.PUBLIC_URL}>
+        <Route render={({ location }) => (
           <div>
             
             <Header />
